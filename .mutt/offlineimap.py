@@ -1,6 +1,7 @@
 #!/usr/bin/python
-import re, subprocess
 
-def get_keychain_pass(account=None, server=None):
+import os
+
+def get_password():
     ''' implement a function that returns password '''
-    return 'password'
+    return os.getenv('GMAIL_PASSWORD')

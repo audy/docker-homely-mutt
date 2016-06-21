@@ -2,7 +2,17 @@
 
 Steve Losh's [The Homely Mutt](http://stevelosh.com/blog/2012/10/the-homely-mutt/) as a Dockerfile.
 
-Unfinished.
+## Usage
+
+```bash
+# sync with gmail
+# (run once. takes a long time)
+docker run \
+  --volume $PWD/mail:/root/.mail \
+  --entrypoint /usr/local/bin/offlineimap \
+  --env GMAIL_PASSWORD='...' \
+  mutt
+```
 
 ## License
 
