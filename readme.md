@@ -2,6 +2,10 @@
 
 Steve Losh's [The Homely Mutt](http://stevelosh.com/blog/2012/10/the-homely-mutt/) as a Dockerfile.
 
+:warning: This code is untested! It is possible that offlineimap's two-way sync
+will delete your email if I screwed something up. Use at your own risk!!
+:warning: :warning: :construction: :bangbang: :skull:
+
 ## Usage
 
 ```bash
