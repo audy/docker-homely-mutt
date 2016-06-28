@@ -16,7 +16,16 @@ docker run \
   --entrypoint /usr/local/bin/offlineimap \
   --env GMAIL_PASSWORD='...' \
   mutt
+
+# then, to actually use this
+docker run \
+  --volume $PWD/mail:/root/.mail \
+  --env GMAIL_PASSWORD='...' \
+  mutt
 ```
+
+It is recommended to use [application-specific
+passwords](https://support.google.com/accounts/answer/185833?hl=en) for Gmail.
 
 ## License
 
