@@ -17,7 +17,7 @@ docker run \
   --env GMAIL_PASSWORD='...' \
   mutt
 
-# then, to actually use this
+# then, to actually use mutt, do this
 docker run \
   --volume $PWD/mail:/root/.mail \
   --env GMAIL_PASSWORD='...' \
