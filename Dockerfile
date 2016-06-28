@@ -13,7 +13,8 @@ RUN apt-get install -y \
   mutt \
   python \
   python-pip \
-  git
+  git \
+  sqlite
 
 # offline imap
 RUN git clone git://github.com/spaetz/offlineimap.git \
