@@ -28,4 +28,4 @@ ADD .offlineimaprc /root/.offlineimaprc
 
 WORKDIR /root
 
-ENTRYPOINT ["/bin/bash"]
+ENTRYPOINT ["/usr/bin/mutt"]
