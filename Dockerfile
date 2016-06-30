@@ -22,7 +22,7 @@ RUN git clone git://github.com/spaetz/offlineimap.git \
   && git checkout 679c491c56c981961e18aa43b31955900491d7a3 \
   && python setup.py install
 
-
+ADD .muttrc /root/.muttrc
 ADD .mutt /root/.mutt
 ADD .offlineimaprc /root/.offlineimaprc
 
